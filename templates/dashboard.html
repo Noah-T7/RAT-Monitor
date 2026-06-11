@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - SACCO Log Monitor</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f0f2f5; }
+        .navbar {
+            background: #1a237e;
+            color: white;
+            padding: 14px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar h1 { font-size: 18px; }
+        .navbar span { font-size: 13px; opacity: 0.8; }
+        .navbar a { color: white; text-decoration: none; font-size: 13px; margin-left: 20px; }
+        .navbar a:hover { opacity: 0.8; }
+        .container { padding: 24px; }
+        .status-bar {
+            padding: 12px 18px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .status-danger { background: #ffebee; color: #c62828; border-left: 4px solid #c62828; }
+        .status-safe { background: #e8f5e9; color: #2e7d32; border-left: 4px solid #2e7d32; }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+        .card h3 { font-size: 13px; color: #888; margin-bottom: 8px; }
+        .card .number { font-size: 32px; font-weight: bold; color: #1a237e; }
+        .card.danger .number { color: #c62828; }
+        .alerts-box {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            padding: 20px;
+        }
+        .alerts-box h2 { font-size: 16px; color: #333; margin-bottom: 16px; }
+        .alert-item {
+            padding: 10px 14px;
+            background: #ffebee;
+            border-left: 3px solid #c62828;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .no-alerts {
+            text-align: center;
+            color: #888;
+            padding: 30px;
+            font-size: 14px;
+        }
+        .nav-links { display: flex; gap: 8px; margin-bottom: 20px; }
+        .nav-links a {
+            padding: 8px 16px;
+            background: white;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #1a237e;
+            font-size: 13px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .nav-links a:hover { background: #e8eaf6; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>🛡️ SACCO Log Monitor</h1>
+        <div>
+            <span>Logged in as: {{ user }}</span>
+            <a href="/logs">View Logs</a>
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+    <div class="container">
+        {% if after_hours %}
+        <div class="status-bar status-danger">
+            ⚠️ WARNING: After-hours activity detected! Current time: {{ time }}
+        </div>
+        {% else %}
+        <div class="status-bar status-safe">
+            ✅ System is operating within normal business hours. Current time: {{ time }}
+        </div>
+        {% endif %}
+
+        <div class="cards">
+            <div class="card {% if alert_count > 0 %}danger{% endif %}">
+                <h3>Total Alerts</h3>
+                <div class="number">{{ alert_count }}</div>
+            </div>
+            <div class="card">
+                <h3>Monitoring Status</h3>
+                <div class="number" style="font-size:18px; margin-top:6px;">🟢 Active</div>
+            </div>
+            <div class="card">
+                <h3>Last Checked</h3>
+                <div class="number" style="font-size:14px; margin-top:6px;">{{ time }}</div>
+            </div>
+        </div>
+
+        <div class="alerts-box">
+            <h2>Recent Alerts</h2>
+            {% if alerts %}
+                {% for alert in alerts[-10:] %}
+                <div class="alert-item">{{ alert }}</div>
+                {% endfor %}
+            {% else %}
+            <div class="no-alerts">✅ No alerts recorded yet</div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

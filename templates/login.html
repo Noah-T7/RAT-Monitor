@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - SACCO Log Monitor</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-box {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 360px;
+        }
+        .login-box h1 {
+            text-align: center;
+            color: #1a237e;
+            margin-bottom: 8px;
+            font-size: 22px;
+        }
+        .login-box p {
+            text-align: center;
+            color: #666;
+            font-size: 13px;
+            margin-bottom: 28px;
+        }
+        .form-group { margin-bottom: 18px; }
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            color: #444;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+        }
+        .form-group input:focus { border-color: #1a237e; }
+        .btn {
+            width: 100%;
+            padding: 11px;
+            background: #1a237e;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+            margin-top: 6px;
+        }
+        .btn:hover { background: #283593; }
+        .error {
+            background: #ffebee;
+            color: #c62828;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        .shield { text-align: center; font-size: 48px; margin-bottom: 16px; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <div class="shield">🛡️</div>
+        <h1>SACCO Log Monitor</h1>
+        <p>Sign in to access the security dashboard</p>
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="POST">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Enter username" required>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Enter password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,330 @@
+[ALERT] 2026-06-08 00:56:09 - After-hours activity detected at 00:56:09
+[ALERT] 2026-06-08 00:57:09 - After-hours activity detected at 00:57:09
+[ALERT] 2026-06-08 00:58:09 - After-hours activity detected at 00:58:09
+[ALERT] 2026-06-08 00:59:09 - After-hours activity detected at 00:59:09
+[ALERT] 2026-06-08 01:00:09 - After-hours activity detected at 01:00:09
+[ALERT] 2026-06-08 01:01:09 - After-hours activity detected at 01:01:09
+[ALERT] 2026-06-08 01:02:09 - After-hours activity detected at 01:02:09
+[ALERT] 2026-06-08 01:03:09 - After-hours activity detected at 01:03:09
+[ALERT] 2026-06-08 01:04:09 - After-hours activity detected at 01:04:09
+[ALERT] 2026-06-08 01:05:09 - After-hours activity detected at 01:05:09
+[ALERT] 2026-06-08 01:06:09 - After-hours activity detected at 01:06:09
+[ALERT] 2026-06-08 01:07:09 - After-hours activity detected at 01:07:09
+[ALERT] 2026-06-08 01:08:09 - After-hours activity detected at 01:08:09
+[ALERT] 2026-06-08 01:09:10 - After-hours activity detected at 01:09:10
+[ALERT] 2026-06-08 01:10:10 - After-hours activity detected at 01:10:10
+[ALERT] 2026-06-08 01:11:10 - After-hours activity detected at 01:11:10
+[ALERT] 2026-06-08 01:12:10 - After-hours activity detected at 01:12:10
+[ALERT] 2026-06-08 01:13:10 - After-hours activity detected at 01:13:10
+[ALERT] 2026-06-08 01:14:10 - After-hours activity detected at 01:14:10
+[ALERT] 2026-06-08 01:15:10 - After-hours activity detected at 01:15:10
+[ALERT] 2026-06-08 01:16:10 - After-hours activity detected at 01:16:10
+[ALERT] 2026-06-08 01:17:10 - After-hours activity detected at 01:17:10
+[ALERT] 2026-06-08 01:18:10 - After-hours activity detected at 01:18:10
+[ALERT] 2026-06-08 01:19:10 - After-hours activity detected at 01:19:10
+[ALERT] 2026-06-08 01:20:10 - After-hours activity detected at 01:20:10
+[ALERT] 2026-06-08 01:21:10 - After-hours activity detected at 01:21:10
+[ALERT] 2026-06-08 01:22:10 - After-hours activity detected at 01:22:10
+[ALERT] 2026-06-08 01:23:10 - After-hours activity detected at 01:23:10
+[ALERT] 2026-06-08 01:24:10 - After-hours activity detected at 01:24:10
+[ALERT] 2026-06-08 01:25:10 - After-hours activity detected at 01:25:10
+[ALERT] 2026-06-08 01:26:10 - After-hours activity detected at 01:26:10
+[ALERT] 2026-06-08 01:27:10 - After-hours activity detected at 01:27:10
+[ALERT] 2026-06-08 01:28:10 - After-hours activity detected at 01:28:10
+[ALERT] 2026-06-08 01:29:10 - After-hours activity detected at 01:29:10
+[ALERT] 2026-06-08 01:30:10 - After-hours activity detected at 01:30:10
+[ALERT] 2026-06-08 01:31:10 - After-hours activity detected at 01:31:10
+[ALERT] 2026-06-08 01:32:10 - After-hours activity detected at 01:32:10
+[ALERT] 2026-06-08 01:33:10 - After-hours activity detected at 01:33:10
+[ALERT] 2026-06-08 01:34:11 - After-hours activity detected at 01:34:11
+[ALERT] 2026-06-08 01:35:11 - After-hours activity detected at 01:35:11
+[ALERT] 2026-06-08 01:36:11 - After-hours activity detected at 01:36:11
+[ALERT] 2026-06-08 01:37:11 - After-hours activity detected at 01:37:11
+[ALERT] 2026-06-08 01:38:11 - After-hours activity detected at 01:38:11
+[ALERT] 2026-06-08 01:39:11 - After-hours activity detected at 01:39:11
+[ALERT] 2026-06-08 01:40:11 - After-hours activity detected at 01:40:11
+[ALERT] 2026-06-08 01:41:11 - After-hours activity detected at 01:41:11
+[ALERT] 2026-06-08 01:42:11 - After-hours activity detected at 01:42:11
+[ALERT] 2026-06-08 01:46:54 - After-hours activity detected at 01:46:54
+[ALERT] 2026-06-08 01:47:54 - After-hours activity detected at 01:47:54
+[ALERT] 2026-06-08 01:48:54 - After-hours activity detected at 01:48:54
+[ALERT] 2026-06-08 01:49:54 - After-hours activity detected at 01:49:54
+[ALERT] 2026-06-08 01:50:54 - After-hours activity detected at 01:50:54
+[ALERT] 2026-06-08 01:51:54 - After-hours activity detected at 01:51:54
+[ALERT] 2026-06-08 01:52:54 - After-hours activity detected at 01:52:54
+[ALERT] 2026-06-08 01:53:54 - After-hours activity detected at 01:53:54
+[ALERT] 2026-06-08 01:54:54 - After-hours activity detected at 01:54:54
+[ALERT] 2026-06-08 01:55:54 - After-hours activity detected at 01:55:54
+[ALERT] 2026-06-08 01:56:54 - After-hours activity detected at 01:56:54
+[ALERT] 2026-06-08 01:57:55 - After-hours activity detected at 01:57:55
+[ALERT] 2026-06-08 01:58:55 - After-hours activity detected at 01:58:55
+[ALERT] 2026-06-08 01:59:55 - After-hours activity detected at 01:59:55
+[ALERT] 2026-06-08 02:00:55 - After-hours activity detected at 02:00:55
+[ALERT] 2026-06-08 02:01:55 - After-hours activity detected at 02:01:55
+[ALERT] 2026-06-08 02:02:55 - After-hours activity detected at 02:02:55
+[ALERT] 2026-06-08 02:03:55 - After-hours activity detected at 02:03:55
+[ALERT] 2026-06-08 02:04:55 - After-hours activity detected at 02:04:55
+[ALERT] 2026-06-08 02:43:18 - After-hours activity detected at 02:43:18
+[ALERT] 2026-06-08 02:44:18 - After-hours activity detected at 02:44:18
+[ALERT] 2026-06-08 02:45:18 - After-hours activity detected at 02:45:18
+[ALERT] 2026-06-08 02:46:18 - After-hours activity detected at 02:46:18
+[ALERT] 2026-06-08 02:47:18 - After-hours activity detected at 02:47:18
+[ALERT] 2026-06-08 02:48:18 - After-hours activity detected at 02:48:18
+[ALERT] 2026-06-08 02:49:18 - After-hours activity detected at 02:49:18
+[ALERT] 2026-06-08 02:50:18 - After-hours activity detected at 02:50:18
+[ALERT] 2026-06-08 02:51:19 - After-hours activity detected at 02:51:19
+[ALERT] 2026-06-08 02:52:19 - After-hours activity detected at 02:52:19
+[ALERT] 2026-06-08 02:53:19 - After-hours activity detected at 02:53:19
+[ALERT] 2026-06-08 02:54:19 - After-hours activity detected at 02:54:19
+[ALERT] 2026-06-08 02:55:19 - After-hours activity detected at 02:55:19
+[ALERT] 2026-06-08 02:56:19 - After-hours activity detected at 02:56:19
+[ALERT] 2026-06-08 02:57:19 - After-hours activity detected at 02:57:19
+[ALERT] 2026-06-08 02:58:19 - After-hours activity detected at 02:58:19
+[ALERT] 2026-06-08 02:59:19 - After-hours activity detected at 02:59:19
+[ALERT] 2026-06-08 03:00:19 - After-hours activity detected at 03:00:19
+[ALERT] 2026-06-08 03:01:19 - After-hours activity detected at 03:01:19
+[ALERT] 2026-06-08 03:02:19 - After-hours activity detected at 03:02:19
+[ALERT] 2026-06-08 03:03:19 - After-hours activity detected at 03:03:19
+[ALERT] 2026-06-08 03:04:19 - After-hours activity detected at 03:04:19
+[ALERT] 2026-06-08 03:05:20 - After-hours activity detected at 03:05:20
+[ALERT] 2026-06-08 03:06:20 - After-hours activity detected at 03:06:20
+[ALERT] 2026-06-08 03:07:20 - After-hours activity detected at 03:07:20
+[ALERT] 2026-06-08 03:08:20 - After-hours activity detected at 03:08:20
+[ALERT] 2026-06-08 03:09:20 - After-hours activity detected at 03:09:20
+[ALERT] 2026-06-08 03:10:20 - After-hours activity detected at 03:10:20
+[ALERT] 2026-06-08 03:11:20 - After-hours activity detected at 03:11:20
+[ALERT] 2026-06-08 03:12:20 - After-hours activity detected at 03:12:20
+[ALERT] 2026-06-08 03:13:21 - After-hours activity detected at 03:13:21
+[ALERT] 2026-06-08 03:14:21 - After-hours activity detected at 03:14:21
+[ALERT] 2026-06-08 03:15:21 - After-hours activity detected at 03:15:21
+[ALERT] 2026-06-08 03:16:21 - After-hours activity detected at 03:16:21
+[ALERT] 2026-06-08 03:17:21 - After-hours activity detected at 03:17:21
+[ALERT] 2026-06-08 03:18:21 - After-hours activity detected at 03:18:21
+[ALERT] 2026-06-08 03:19:21 - After-hours activity detected at 03:19:21
+[ALERT] 2026-06-08 03:20:21 - After-hours activity detected at 03:20:21
+[ALERT] 2026-06-08 03:21:21 - After-hours activity detected at 03:21:21
+[ALERT] 2026-06-08 03:22:21 - After-hours activity detected at 03:22:21
+[ALERT] 2026-06-08 03:23:21 - After-hours activity detected at 03:23:21
+[ALERT] 2026-06-08 03:24:22 - After-hours activity detected at 03:24:22
+[ALERT] 2026-06-08 03:25:22 - After-hours activity detected at 03:25:22
+[ALERT] 2026-06-08 03:26:22 - After-hours activity detected at 03:26:22
+[ALERT] 2026-06-08 03:27:22 - After-hours activity detected at 03:27:22
+[ALERT] 2026-06-08 03:28:22 - After-hours activity detected at 03:28:22
+[ALERT] 2026-06-08 03:29:22 - After-hours activity detected at 03:29:22
+[ALERT] 2026-06-08 03:30:22 - After-hours activity detected at 03:30:22
+[ALERT] 2026-06-08 03:31:22 - After-hours activity detected at 03:31:22
+[ALERT] 2026-06-08 03:32:22 - After-hours activity detected at 03:32:22
+[ALERT] 2026-06-08 03:33:22 - After-hours activity detected at 03:33:22
+[ALERT] 2026-06-08 03:34:23 - After-hours activity detected at 03:34:23
+[ALERT] 2026-06-08 03:35:23 - After-hours activity detected at 03:35:23
+[ALERT] 2026-06-08 03:36:23 - After-hours activity detected at 03:36:23
+[ALERT] 2026-06-08 03:37:23 - After-hours activity detected at 03:37:23
+[ALERT] 2026-06-08 03:38:23 - After-hours activity detected at 03:38:23
+[ALERT] 2026-06-08 03:39:23 - After-hours activity detected at 03:39:23
+[ALERT] 2026-06-08 03:40:23 - After-hours activity detected at 03:40:23
+[ALERT] 2026-06-08 03:41:23 - After-hours activity detected at 03:41:23
+[ALERT] 2026-06-08 03:42:23 - After-hours activity detected at 03:42:23
+[ALERT] 2026-06-08 03:43:23 - After-hours activity detected at 03:43:23
+[ALERT] 2026-06-08 03:44:23 - After-hours activity detected at 03:44:23
+[ALERT] 2026-06-08 03:45:23 - After-hours activity detected at 03:45:23
+[ALERT] 2026-06-08 03:46:24 - After-hours activity detected at 03:46:24
+[ALERT] 2026-06-08 03:47:24 - After-hours activity detected at 03:47:24
+[ALERT] 2026-06-08 03:48:24 - After-hours activity detected at 03:48:24
+[ALERT] 2026-06-08 03:49:24 - After-hours activity detected at 03:49:24
+[ALERT] 2026-06-08 03:50:24 - After-hours activity detected at 03:50:24
+[ALERT] 2026-06-08 03:51:24 - After-hours activity detected at 03:51:24
+[ALERT] 2026-06-08 03:52:24 - After-hours activity detected at 03:52:24
+[ALERT] 2026-06-08 03:53:24 - After-hours activity detected at 03:53:24
+[ALERT] 2026-06-08 03:54:24 - After-hours activity detected at 03:54:24
+[ALERT] 2026-06-08 03:55:24 - After-hours activity detected at 03:55:24
+[ALERT] 2026-06-08 03:56:24 - After-hours activity detected at 03:56:24
+[ALERT] 2026-06-08 03:57:24 - After-hours activity detected at 03:57:24
+[ALERT] 2026-06-08 03:58:24 - After-hours activity detected at 03:58:24
+[ALERT] 2026-06-08 03:59:25 - After-hours activity detected at 03:59:25
+[ALERT] 2026-06-08 04:00:25 - After-hours activity detected at 04:00:25
+[ALERT] 2026-06-08 04:01:25 - After-hours activity detected at 04:01:25
+[ALERT] 2026-06-08 04:02:25 - After-hours activity detected at 04:02:25
+[ALERT] 2026-06-08 04:03:26 - After-hours activity detected at 04:03:26
+[ALERT] 2026-06-08 04:04:26 - After-hours activity detected at 04:04:26
+[ALERT] 2026-06-08 04:05:26 - After-hours activity detected at 04:05:26
+[ALERT] 2026-06-08 04:06:27 - After-hours activity detected at 04:06:27
+[ALERT] 2026-06-08 04:07:27 - After-hours activity detected at 04:07:27
+[ALERT] 2026-06-08 04:08:27 - After-hours activity detected at 04:08:27
+[ALERT] 2026-06-08 04:09:27 - After-hours activity detected at 04:09:27
+[ALERT] 2026-06-08 04:10:27 - After-hours activity detected at 04:10:27
+[ALERT] 2026-06-08 04:11:27 - After-hours activity detected at 04:11:27
+[ALERT] 2026-06-08 04:12:27 - After-hours activity detected at 04:12:27
+[ALERT] 2026-06-08 04:13:27 - After-hours activity detected at 04:13:27
+[ALERT] 2026-06-08 04:14:28 - After-hours activity detected at 04:14:28
+[ALERT] 2026-06-08 04:15:28 - After-hours activity detected at 04:15:28
+[ALERT] 2026-06-08 04:16:28 - After-hours activity detected at 04:16:28
+[ALERT] 2026-06-08 04:17:28 - After-hours activity detected at 04:17:28
+[ALERT] 2026-06-08 04:18:28 - After-hours activity detected at 04:18:28
+[ALERT] 2026-06-08 04:19:29 - After-hours activity detected at 04:19:29
+[ALERT] 2026-06-08 04:20:29 - After-hours activity detected at 04:20:29
+[ALERT] 2026-06-08 04:21:30 - After-hours activity detected at 04:21:30
+[ALERT] 2026-06-08 04:22:31 - After-hours activity detected at 04:22:31
+[ALERT] 2026-06-08 04:23:31 - After-hours activity detected at 04:23:31
+[ALERT] 2026-06-08 04:24:31 - After-hours activity detected at 04:24:31
+[ALERT] 2026-06-08 04:25:32 - After-hours activity detected at 04:25:32
+[ALERT] 2026-06-08 04:26:32 - After-hours activity detected at 04:26:32
+[ALERT] 2026-06-08 04:27:32 - After-hours activity detected at 04:27:32
+[ALERT] 2026-06-08 04:28:32 - After-hours activity detected at 04:28:32
+[ALERT] 2026-06-08 04:29:32 - After-hours activity detected at 04:29:32
+[ALERT] 2026-06-08 04:30:32 - After-hours activity detected at 04:30:32
+[ALERT] 2026-06-08 04:31:32 - After-hours activity detected at 04:31:32
+[ALERT] 2026-06-08 04:32:32 - After-hours activity detected at 04:32:32
+[ALERT] 2026-06-08 04:33:32 - After-hours activity detected at 04:33:32
+[ALERT] 2026-06-08 04:34:32 - After-hours activity detected at 04:34:32
+[ALERT] 2026-06-08 04:35:32 - After-hours activity detected at 04:35:32
+[ALERT] 2026-06-08 04:36:32 - After-hours activity detected at 04:36:32
+[ALERT] 2026-06-08 04:37:32 - After-hours activity detected at 04:37:32
+[ALERT] 2026-06-08 04:38:32 - After-hours activity detected at 04:38:32
+[ALERT] 2026-06-08 04:39:33 - After-hours activity detected at 04:39:33
+[ALERT] 2026-06-08 04:40:33 - After-hours activity detected at 04:40:33
+[ALERT] 2026-06-08 04:41:33 - After-hours activity detected at 04:41:33
+[ALERT] 2026-06-08 04:42:33 - After-hours activity detected at 04:42:33
+[ALERT] 2026-06-08 04:43:33 - After-hours activity detected at 04:43:33
+[ALERT] 2026-06-08 04:44:33 - After-hours activity detected at 04:44:33
+[ALERT] 2026-06-08 04:45:34 - After-hours activity detected at 04:45:34
+[ALERT] 2026-06-08 04:46:34 - After-hours activity detected at 04:46:34
+[ALERT] 2026-06-08 04:47:34 - After-hours activity detected at 04:47:34
+[ALERT] 2026-06-08 04:48:34 - After-hours activity detected at 04:48:34
+[ALERT] 2026-06-08 04:49:42 - After-hours activity detected at 04:49:42
+[ALERT] 2026-06-08 04:50:42 - After-hours activity detected at 04:50:42
+[ALERT] 2026-06-08 04:51:42 - After-hours activity detected at 04:51:42
+[ALERT] 2026-06-08 04:52:42 - After-hours activity detected at 04:52:42
+[ALERT] 2026-06-08 04:53:42 - After-hours activity detected at 04:53:42
+[ALERT] 2026-06-08 04:54:42 - After-hours activity detected at 04:54:42
+[ALERT] 2026-06-08 04:55:43 - After-hours activity detected at 04:55:43
+[ALERT] 2026-06-08 04:56:43 - After-hours activity detected at 04:56:43
+[ALERT] 2026-06-08 04:57:43 - After-hours activity detected at 04:57:43
+[ALERT] 2026-06-08 04:58:43 - After-hours activity detected at 04:58:43
+[ALERT] 2026-06-08 04:59:43 - After-hours activity detected at 04:59:43
+[ALERT] 2026-06-08 05:00:43 - After-hours activity detected at 05:00:43
+[ALERT] 2026-06-08 05:01:43 - After-hours activity detected at 05:01:43
+[ALERT] 2026-06-08 05:02:45 - After-hours activity detected at 05:02:45
+[ALERT] 2026-06-08 05:03:45 - After-hours activity detected at 05:03:45
+[ALERT] 2026-06-08 05:04:45 - After-hours activity detected at 05:04:45
+[ALERT] 2026-06-08 05:05:45 - After-hours activity detected at 05:05:45
+[ALERT] 2026-06-08 05:06:45 - After-hours activity detected at 05:06:45
+[ALERT] 2026-06-08 05:07:45 - After-hours activity detected at 05:07:45
+[ALERT] 2026-06-08 05:08:48 - After-hours activity detected at 05:08:48
+[ALERT] 2026-06-08 05:09:49 - After-hours activity detected at 05:09:49
+[ALERT] 2026-06-08 05:10:49 - After-hours activity detected at 05:10:49
+[ALERT] 2026-06-08 05:11:49 - After-hours activity detected at 05:11:49
+[ALERT] 2026-06-08 05:12:49 - After-hours activity detected at 05:12:49
+[ALERT] 2026-06-08 05:13:49 - After-hours activity detected at 05:13:49
+[ALERT] 2026-06-08 05:14:49 - After-hours activity detected at 05:14:49
+[ALERT] 2026-06-08 05:15:49 - After-hours activity detected at 05:15:49
+[ALERT] 2026-06-08 05:16:49 - After-hours activity detected at 05:16:49
+[ALERT] 2026-06-08 05:17:49 - After-hours activity detected at 05:17:49
+[ALERT] 2026-06-08 05:18:49 - After-hours activity detected at 05:18:49
+[ALERT] 2026-06-08 05:19:49 - After-hours activity detected at 05:19:49
+[ALERT] 2026-06-08 05:20:49 - After-hours activity detected at 05:20:49
+[ALERT] 2026-06-08 05:21:50 - After-hours activity detected at 05:21:50
+[ALERT] 2026-06-08 05:22:50 - After-hours activity detected at 05:22:50
+[ALERT] 2026-06-08 05:23:50 - After-hours activity detected at 05:23:50
+[ALERT] 2026-06-08 05:24:50 - After-hours activity detected at 05:24:50
+[ALERT] 2026-06-08 05:25:50 - After-hours activity detected at 05:25:50
+[ALERT] 2026-06-08 05:26:51 - After-hours activity detected at 05:26:51
+[ALERT] 2026-06-08 05:27:51 - After-hours activity detected at 05:27:51
+[ALERT] 2026-06-08 05:28:51 - After-hours activity detected at 05:28:51
+[ALERT] 2026-06-08 05:29:51 - After-hours activity detected at 05:29:51
+[ALERT] 2026-06-08 05:30:51 - After-hours activity detected at 05:30:51
+[ALERT] 2026-06-08 05:31:51 - After-hours activity detected at 05:31:51
+[ALERT] 2026-06-08 05:32:51 - After-hours activity detected at 05:32:51
+[ALERT] 2026-06-08 05:33:51 - After-hours activity detected at 05:33:51
+[ALERT] 2026-06-08 05:34:52 - After-hours activity detected at 05:34:52
+[ALERT] 2026-06-08 05:35:52 - After-hours activity detected at 05:35:52
+[ALERT] 2026-06-08 05:36:52 - After-hours activity detected at 05:36:52
+[ALERT] 2026-06-08 05:37:52 - After-hours activity detected at 05:37:52
+[ALERT] 2026-06-08 05:38:52 - After-hours activity detected at 05:38:52
+[ALERT] 2026-06-08 05:39:52 - After-hours activity detected at 05:39:52
+[ALERT] 2026-06-08 05:40:52 - After-hours activity detected at 05:40:52
+[ALERT] 2026-06-08 05:41:52 - After-hours activity detected at 05:41:52
+[ALERT] 2026-06-08 05:42:52 - After-hours activity detected at 05:42:52
+[ALERT] 2026-06-08 05:43:52 - After-hours activity detected at 05:43:52
+[ALERT] 2026-06-08 05:44:52 - After-hours activity detected at 05:44:52
+[ALERT] 2026-06-08 05:45:52 - After-hours activity detected at 05:45:52
+[ALERT] 2026-06-08 05:46:52 - After-hours activity detected at 05:46:52
+[ALERT] 2026-06-08 05:47:52 - After-hours activity detected at 05:47:52
+[ALERT] 2026-06-08 05:48:52 - After-hours activity detected at 05:48:52
+[ALERT] 2026-06-08 05:49:52 - After-hours activity detected at 05:49:52
+[ALERT] 2026-06-08 05:50:52 - After-hours activity detected at 05:50:52
+[ALERT] 2026-06-08 05:51:52 - After-hours activity detected at 05:51:52
+[ALERT] 2026-06-08 05:52:52 - After-hours activity detected at 05:52:52
+[ALERT] 2026-06-08 05:53:52 - After-hours activity detected at 05:53:52
+[ALERT] 2026-06-08 05:54:53 - After-hours activity detected at 05:54:53
+[ALERT] 2026-06-08 05:55:53 - After-hours activity detected at 05:55:53
+[ALERT] 2026-06-08 05:56:53 - After-hours activity detected at 05:56:53
+[ALERT] 2026-06-08 05:57:53 - After-hours activity detected at 05:57:53
+[ALERT] 2026-06-08 05:58:53 - After-hours activity detected at 05:58:53
+[ALERT] 2026-06-08 05:59:53 - After-hours activity detected at 05:59:53
+[ALERT] 2026-06-11 22:52:29 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 22:52:29 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 22:52:29 - After-hours activity detected at 22:52:29
+[ALERT] 2026-06-11 22:53:29 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 22:53:29 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 22:53:29 - After-hours activity detected at 22:53:29
+[ALERT] 2026-06-11 22:54:29 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 22:54:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 22:54:30 - After-hours activity detected at 22:54:30
+[ALERT] 2026-06-11 22:55:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 22:55:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 22:55:30 - After-hours activity detected at 22:55:30
+[ALERT] 2026-06-11 22:56:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 22:56:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 22:56:30 - Suspicious connection detected on port 4444: TCP    192.168.1.101:44442    34.149.66.154:443      ESTABLISHED     7956
+[ALERT] 2026-06-11 22:56:30 - After-hours activity detected at 22:56:30
+[ALERT] 2026-06-11 22:57:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 22:57:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 22:57:30 - After-hours activity detected at 22:57:30
+[ALERT] 2026-06-11 22:58:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 22:58:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 22:58:30 - After-hours activity detected at 22:58:30
+[ALERT] 2026-06-11 22:59:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 22:59:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 22:59:30 - After-hours activity detected at 22:59:30
+[ALERT] 2026-06-11 23:00:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:00:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:00:30 - After-hours activity detected at 23:00:30
+[ALERT] 2026-06-11 23:01:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:01:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:01:30 - After-hours activity detected at 23:01:30
+[ALERT] 2026-06-11 23:02:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:02:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:02:30 - After-hours activity detected at 23:02:30
+[ALERT] 2026-06-11 23:03:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:03:30 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:03:30 - After-hours activity detected at 23:03:30
+[ALERT] 2026-06-11 23:04:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:04:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:04:31 - After-hours activity detected at 23:04:31
+[ALERT] 2026-06-11 23:05:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:05:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:05:31 - After-hours activity detected at 23:05:31
+[ALERT] 2026-06-11 23:06:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:06:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:06:31 - After-hours activity detected at 23:06:31
+[ALERT] 2026-06-11 23:07:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:07:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:07:31 - After-hours activity detected at 23:07:31
+[ALERT] 2026-06-11 23:08:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:08:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:08:31 - After-hours activity detected at 23:08:31
+[ALERT] 2026-06-11 23:09:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:09:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:09:31 - After-hours activity detected at 23:09:31
+[ALERT] 2026-06-11 23:10:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:10:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:10:31 - After-hours activity detected at 23:10:31
+[ALERT] 2026-06-11 23:11:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:11:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:11:31 - After-hours activity detected at 23:11:31
+[ALERT] 2026-06-11 23:12:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:12:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:12:31 - After-hours activity detected at 23:12:31
+[ALERT] 2026-06-11 23:13:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:4444         127.0.0.1:52402        ESTABLISHED     20088
+[ALERT] 2026-06-11 23:13:31 - Suspicious connection detected on port 4444: TCP    127.0.0.1:52402        127.0.0.1:4444         ESTABLISHED     17824
+[ALERT] 2026-06-11 23:13:31 - After-hours activity detected at 23:13:31
