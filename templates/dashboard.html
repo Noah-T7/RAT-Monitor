@@ -6,124 +6,194 @@
     <title>Dashboard - SACCO Log Monitor</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; background: #f0f2f5; }
-        .navbar {
-            background: #1a237e;
-            color: white;
-            padding: 14px 24px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .navbar h1 { font-size: 18px; }
-        .navbar span { font-size: 13px; opacity: 0.8; }
-        .navbar a { color: white; text-decoration: none; font-size: 13px; margin-left: 20px; }
-        .navbar a:hover { opacity: 0.8; }
-        .container { padding: 24px; }
-        .status-bar {
-            padding: 12px 18px;
-            border-radius: 8px;
-            margin-bottom: 24px;
-            font-size: 14px;
-            font-weight: bold;
-        }
-        .status-danger { background: #ffebee; color: #c62828; border-left: 4px solid #c62828; }
-        .status-safe { background: #e8f5e9; color: #2e7d32; border-left: 4px solid #2e7d32; }
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 16px;
-            margin-bottom: 24px;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-        }
-        .card h3 { font-size: 13px; color: #888; margin-bottom: 8px; }
-        .card .number { font-size: 32px; font-weight: bold; color: #1a237e; }
-        .card.danger .number { color: #c62828; }
-        .alerts-box {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-            padding: 20px;
-        }
-        .alerts-box h2 { font-size: 16px; color: #333; margin-bottom: 16px; }
-        .alert-item {
-            padding: 10px 14px;
-            background: #ffebee;
-            border-left: 3px solid #c62828;
-            border-radius: 4px;
-            font-size: 13px;
-            color: #333;
-            margin-bottom: 8px;
-        }
-        .no-alerts {
-            text-align: center;
-            color: #888;
-            padding: 30px;
-            font-size: 14px;
-        }
-        .nav-links { display: flex; gap: 8px; margin-bottom: 20px; }
-        .nav-links a {
-            padding: 8px 16px;
-            background: white;
-            border-radius: 6px;
-            text-decoration: none;
-            color: #1a237e;
-            font-size: 13px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-        }
-        .nav-links a:hover { background: #e8eaf6; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #0d1117; color: #e6edf3; min-height: 100vh; }
+        .navbar { background: #161b22; border-bottom: 1px solid #30363d; padding: 14px 28px; display: flex; justify-content: space-between; align-items: center; }
+        .navbar-left { display: flex; align-items: center; gap: 12px; }
+        .navbar-left h1 { font-size: 17px; font-weight: 600; color: #e6edf3; }
+        .badge { background: #238636; color: white; font-size: 11px; padding: 2px 10px; border-radius: 20px; font-weight: 500; }
+        .badge.danger { background: #da3633; }
+        .navbar-right { display: flex; align-items: center; gap: 16px; }
+        .navbar-right span { font-size: 12px; color: #8b949e; }
+        .navbar-right a { font-size: 12px; color: #58a6ff; text-decoration: none; padding: 5px 12px; border: 1px solid #30363d; border-radius: 6px; }
+        .navbar-right a:hover { background: #21262d; }
+        .container { padding: 24px 28px; }
+        .status-banner { padding: 12px 18px; border-radius: 8px; margin-bottom: 24px; font-size: 13px; font-weight: 500; display: flex; align-items: center; gap: 10px; }
+        .status-danger { background: rgba(218,54,51,0.15); border: 1px solid rgba(218,54,51,0.4); color: #ff7b72; }
+        .status-safe { background: rgba(35,134,54,0.15); border: 1px solid rgba(35,134,54,0.4); color: #3fb950; }
+        .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px 24px; }
+        .card-label { font-size: 11px; color: #8b949e; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+        .card-value { font-size: 32px; font-weight: 700; color: #e6edf3; }
+        .card-value.danger { color: #ff7b72; }
+        .card-value.success { color: #3fb950; font-size: 16px; margin-top: 6px; }
+        .card-value.small { font-size: 13px; margin-top: 6px; color: #8b949e; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+        .section { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px 24px; margin-bottom: 20px; }
+        .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+        .section-title { font-size: 14px; font-weight: 600; color: #e6edf3; }
+        .section-count { font-size: 12px; color: #8b949e; }
+        .alert-item { padding: 10px 14px; background: rgba(218,54,51,0.1); border: 1px solid rgba(218,54,51,0.25); border-radius: 6px; font-size: 12px; color: #cdd9e5; margin-bottom: 8px; font-family: 'Courier New', monospace; }
+        .session-item { padding: 10px 14px; background: #0d1117; border: 1px solid #30363d; border-radius: 6px; font-size: 12px; color: #cdd9e5; margin-bottom: 8px; font-family: 'Courier New', monospace; }
+        .session-item.login { border-left: 3px solid #3fb950; }
+        .session-item.logout { border-left: 3px solid #8b949e; }
+        .no-data { text-align: center; color: #8b949e; padding: 30px; font-size: 13px; }
+        .dot { width: 8px; height: 8px; border-radius: 50%; background: #3fb950; display: inline-block; margin-right: 6px; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+        /* AI Chat */
+        .ai-section { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px 24px; margin-bottom: 20px; }
+        .ai-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+        .ai-badge { background: linear-gradient(135deg, #7c5cbf, #5b4fcf); color: white; font-size: 11px; padding: 3px 10px; border-radius: 20px; font-weight: 500; }
+        .ai-messages { min-height: 100px; max-height: 300px; overflow-y: auto; margin-bottom: 16px; }
+        .ai-message { padding: 12px 16px; border-radius: 8px; margin-bottom: 10px; font-size: 13px; line-height: 1.6; }
+        .ai-message.user { background: rgba(88,166,255,0.1); border: 1px solid rgba(88,166,255,0.2); color: #58a6ff; text-align: right; }
+        .ai-message.assistant { background: rgba(124,92,191,0.1); border: 1px solid rgba(124,92,191,0.2); color: #cdd9e5; }
+        .ai-message.loading { color: #8b949e; font-style: italic; }
+        .ai-input-row { display: flex; gap: 10px; }
+        .ai-input { flex: 1; padding: 10px 14px; background: #0d1117; border: 1px solid #30363d; border-radius: 8px; color: #e6edf3; font-size: 13px; outline: none; font-family: 'Segoe UI', Arial, sans-serif; }
+        .ai-input:focus { border-color: #7c5cbf; }
+        .ai-input::placeholder { color: #8b949e; }
+        .ai-btn { padding: 10px 20px; background: linear-gradient(135deg, #7c5cbf, #5b4fcf); color: white; border: none; border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: 500; }
+        .ai-btn:hover { opacity: 0.9; }
+        .ai-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .quick-questions { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+        .quick-btn { padding: 5px 12px; background: #0d1117; border: 1px solid #30363d; border-radius: 20px; color: #8b949e; font-size: 11px; cursor: pointer; }
+        .quick-btn:hover { border-color: #7c5cbf; color: #cdd9e5; }
     </style>
+    <meta http-equiv="refresh" content="60">
 </head>
 <body>
     <div class="navbar">
-        <h1>🛡️ SACCO Log Monitor</h1>
-        <div>
-            <span>Logged in as: {{ user }}</span>
-            <a href="/logs">View Logs</a>
+        <div class="navbar-left">
+            <h1>🛡️ SACCO Log Monitor</h1>
+            {% if after_hours %}
+            <span class="badge danger">⚠ AFTER HOURS</span>
+            {% else %}
+            <span class="badge">● MONITORING</span>
+            {% endif %}
+        </div>
+        <div class="navbar-right">
+            <span>{{ user }} ({{ role }})</span>
+            <a href="/logs">Live Logs</a>
             <a href="/logout">Logout</a>
         </div>
     </div>
+
     <div class="container">
         {% if after_hours %}
-        <div class="status-bar status-danger">
-            ⚠️ WARNING: After-hours activity detected! Current time: {{ time }}
+        <div class="status-banner status-danger">
+            ⚠️ WARNING: After-hours activity detected on the monitored system — {{ time }}
         </div>
         {% else %}
-        <div class="status-bar status-safe">
-            ✅ System is operating within normal business hours. Current time: {{ time }}
+        <div class="status-banner status-safe">
+            ✅ System operating within normal business hours — {{ time }}
         </div>
         {% endif %}
 
         <div class="cards">
-            <div class="card {% if alert_count > 0 %}danger{% endif %}">
-                <h3>Total Alerts</h3>
-                <div class="number">{{ alert_count }}</div>
+            <div class="card">
+                <div class="card-label">Total Alerts</div>
+                <div class="card-value {% if alert_count > 0 %}danger{% endif %}">{{ alert_count }}</div>
             </div>
             <div class="card">
-                <h3>Monitoring Status</h3>
-                <div class="number" style="font-size:18px; margin-top:6px;">🟢 Active</div>
+                <div class="card-label">Monitoring Status</div>
+                <div class="card-value success"><span class="dot"></span>Active</div>
             </div>
             <div class="card">
-                <h3>Last Checked</h3>
-                <div class="number" style="font-size:14px; margin-top:6px;">{{ time }}</div>
+                <div class="card-label">Last Checked</div>
+                <div class="card-value small">{{ time }}</div>
             </div>
         </div>
 
-        <div class="alerts-box">
-            <h2>Recent Alerts</h2>
-            {% if alerts %}
-                {% for alert in alerts[-10:] %}
-                <div class="alert-item">{{ alert }}</div>
-                {% endfor %}
-            {% else %}
-            <div class="no-alerts">✅ No alerts recorded yet</div>
-            {% endif %}
+        <div class="grid-2">
+            <div class="section">
+                <div class="section-header">
+                    <span class="section-title">🔴 Recent Security Alerts</span>
+                    <span class="section-count">Last 10</span>
+                </div>
+                {% if alerts %}
+                    {% for alert in alerts[-10:] %}
+                    <div class="alert-item">{{ alert }}</div>
+                    {% endfor %}
+                {% else %}
+                <div class="no-data">✅ No alerts recorded yet</div>
+                {% endif %}
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <span class="section-title">👤 Staff Login Activity</span>
+                    <span class="section-count">Last 10</span>
+                </div>
+                {% if sessions %}
+                    {% for s in sessions %}
+                    <div class="session-item {% if 'LOGIN' in s %}login{% else %}logout{% endif %}">{{ s }}</div>
+                    {% endfor %}
+                {% else %}
+                <div class="no-data">No staff sessions recorded yet</div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- AI Chat Section -->
+        <div class="ai-section">
+            <div class="ai-header">
+                <span class="section-title">🤖 AI Security Assistant</span>
+                <span class="ai-badge">Powered by Claude AI</span>
+            </div>
+            <div class="quick-questions">
+                <button class="quick-btn" onclick="askQuestion('What happened at 2AM?')">What happened at 2AM?</button>
+                <button class="quick-btn" onclick="askQuestion('Are there any suspicious connections?')">Suspicious connections?</button>
+                <button class="quick-btn" onclick="askQuestion('How serious are the current alerts?')">How serious are alerts?</button>
+                <button class="quick-btn" onclick="askQuestion('What should I do right now?')">What should I do?</button>
+                <button class="quick-btn" onclick="askQuestion('Was any staff member logged in after hours?')">Staff after hours?</button>
+            </div>
+            <div class="ai-messages" id="ai-messages">
+                <div class="ai-message assistant">Hello! I am your AI security assistant. I can analyze your current alerts and session logs to help you understand what is happening on your system. Ask me anything!</div>
+            </div>
+            <div class="ai-input-row">
+                <input type="text" class="ai-input" id="ai-input" placeholder="Ask about your security alerts..." onkeypress="if(event.key==='Enter') sendMessage()">
+                <button class="ai-btn" id="ai-btn" onclick="sendMessage()">Ask AI</button>
+            </div>
         </div>
     </div>
+
+    <script>
+        function askQuestion(q) {
+            document.getElementById('ai-input').value = q;
+            sendMessage();
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('ai-input');
+            const btn = document.getElementById('ai-btn');
+            const messages = document.getElementById('ai-messages');
+            const question = input.value.trim();
+            if (!question) return;
+
+            // Show user message
+            messages.innerHTML += `<div class="ai-message user">${question}</div>`;
+            messages.innerHTML += `<div class="ai-message loading" id="loading">🤖 AI is analyzing your system...</div>`;
+            input.value = '';
+            btn.disabled = true;
+            messages.scrollTop = messages.scrollHeight;
+
+            try {
+                const response = await fetch('/ai-chat', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({question: question})
+                });
+                const data = await response.json();
+                document.getElementById('loading').remove();
+                messages.innerHTML += `<div class="ai-message assistant">${data.response}</div>`;
+            } catch (error) {
+                document.getElementById('loading').remove();
+                messages.innerHTML += `<div class="ai-message assistant">Sorry, AI is currently unavailable. Please try again.</div>`;
+            }
+
+            btn.disabled = false;
+            messages.scrollTop = messages.scrollHeight;
+        }
+    </script>
 </body>
 </html>
