@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session, j
 import subprocess
 import datetime
 import os
+import json
 
 app = Flask(__name__)
 app.secret_key = "sacco_monitor_2026"
@@ -27,14 +28,23 @@ def get_connections():
     result = subprocess.run(["netstat", "-ano"], capture_output=True, text=True)
     connections = []
     suspicious_ports = [4444, 1234, 5555, 8080]
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     for line in result.stdout.splitlines():
         if "ESTABLISHED" in line:
             for port in suspicious_ports:
                 if f":{port}" in line:
-                    connections.append({"line": line.strip(), "suspicious": True})
+                    connections.append({
+                        "line": line.strip(),
+                        "suspicious": True,
+                        "time": timestamp
+                    })
                     break
             else:
-                connections.append({"line": line.strip(), "suspicious": False})
+                connections.append({
+                    "line": line.strip(),
+                    "suspicious": False,
+                    "time": timestamp
+                })
     return connections[:20]
 
 def log_session(username, action):
